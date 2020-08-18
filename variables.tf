@@ -1,17 +1,17 @@
 variable "bucket_name" {
-  type = "string"
+  type = string
 }
 
 variable "gateway_ip_address" {
-  type = "string"
+  type = string
 }
 
 variable "gateway_name" {
-  type = "string"
+  type = string
 }
 
 variable "gateway_timezone" {
-  type = "string"
+  type = string
   default = "GMT"
 }
 
